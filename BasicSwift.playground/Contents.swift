@@ -24,6 +24,19 @@ answer1 = answer1 + String(number1) // Any to String
 var answer2: Int = number1 + 100
 answer2 = answer2 + Int(number2)
 
+//Print on Console
+print("This is Console")
+print("answer1 ==> \(answer1)")
+print("answer2 ==> \(answer2)")
+
+//If else Statement
+number1 = number1 + 500
+if number1 < answer2 {
+    print("Status True")
+}   else {
+    print("Status False")
+}
+
 
 
 

@@ -37,6 +37,52 @@ if number1 < answer2 {
     print("Status False")
 }
 
+//Array
+//Implicit Array การประกาศตัวแปร Array ให้ ใช้ Value เป็นตัวกำหนดค่า Data Type
+var numberInts = [11,22,33,44,55]
+var nameStrings = ["AAA", "BBB", "CCC"]
+
+print("ขนาดของ Array numberInts ==> \(numberInts.count)")
+//การเพิ่ม สมาชิค บน Array
+nameStrings.append("DDD")
+numberInts.append(60)
+
+//Delete Member of Array
+numberInts.remove(at: 2)
+print("numberInts ==> \(numberInts)")
+
+//Explicit Array
+var number2Array = [Int]()
+number2Array.append(10)
+number2Array.append(20)
+number2Array.append(30)
+
+var nameArray = [String]()
+nameArray.append("MasterUNG")
+nameArray.append("Doramon")
+nameArray.append("123")
+
+//Dictionary
+//Implicit
+var friendDic = ["key1": "Doramon", "key2": "Nopita", "key3": "Suneko"]
+var numberDic = ["key1": 12, "key2": 13, "key3": 14, ]
+
+print("จำนวนสมาชิกของ friendDic ==> \(friendDic.count)")
+print("แสดงสมาชิก friendDic ที่มีค่า key คือ key1 ==> \(friendDic["key1"])")
+
+//Delete Member of Dictionary
+numberDic.removeValue(forKey: "key2")
+print("numberDic ==> \(numberDic)")
+
+//Add Member of Dictionary
+friendDic["key4"] = "MasterUNG"
+print("friedDic ==> \(friendDic)")
+
+
+
+
+
+
 
 
 
